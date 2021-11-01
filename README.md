@@ -21,3 +21,7 @@
   - `#id`
 - responsive css
   - `@media`
+
+> Bài tập mới 
+
+Làm ở file index.html
