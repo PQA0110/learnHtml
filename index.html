@@ -1,82 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+	<title>BTVN</title>
+	<link rel="stylesheet" href="">
 </head>
+<style>
+	div.img1 {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+    }	
+    div.img1:hover {
+        border: 1px solid #777;
+    }
+    div.img1 img {
+        width:100%;
+        height: auto;
+    }
+    div {
+    	margin: 5px;
+    }
+    div.li1 {
+    	margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+    }
+    div.li2 {
+    	margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 200px;
+    }
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 <body>
-  <!-- code all tag in html bellow -->
-
-  <!-- make button with text you want and have red color and green color for background -->
-
-  <!-- code list your hobbit with <ul><li> and <ol><li> -->
-
-  <!-- code your name with <h1> and <h2> -->
-
-  <!-- code to embed a video in html page -->
-
-  <!-- code to embed a picture in html page -->
-
-  <!-- make album picture (css,html) -->
-
-  <!-- make a form with input and button -->
-
-  <!-- make a form with input, button and select -->
-
-  <!-- make a form with input, button and textarea -->
-
-  <!-- make a form with input, button and radio -->
-
-  <!-- make a form with input, button and checkbox -->
-
-  <!-- make a form with input, button and file -->
-
-  <!-- make a form with input, button and submit -->
-
-  <!-- make a form with input, button and reset -->
-
-  <!-- make a form with input, button and image -->
-
-  <!-- make a form with input, button and password -->
-
-  <!-- make a form with input, button and hidden -->
-
-  <!-- make a form with input, button and submit and reset -->
-
-  <!-- make a form with input, button and submit and reset and image -->
-
-  <!-- make a form with input, button and submit and reset and image and password -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden and file -->
-
-  <!-- P2 -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden and file and select -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden and file and select and textarea -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden and file and select and textarea and radio -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden and file and select and textarea and radio and checkbox -->
-
-  <!-- make a form with input, button and submit and reset and image and password and hidden and file and select and textarea and radio and checkbox and password -->
-
-  <!-- show list food which you can cook with ul li -->
-
-  <!-- show list food which you can cook with ol li -->
-
-  <!-- show list food which you can cook with ul li and ol li -->
-
-  <!-- make a table with 3 columns and 2 rows -->
-
-  <!-- make a table with 3 columns and 2 rows and table-bordered -->
-
-  <!-- make a table with 3 columns and 2 rows and table-bordered and table-striped -->
-
-  <!-- make a table with 3 columns and 2 rows and table-bordered and table-striped and table-hover -->
+	<button type="", name="Abc", style="color: red; background-color: green ">Click!!</button>
+	<ul>
+		<li>Ăn</li>
+		<li>Ngủ</li>
+		<li>Chơi game</li>
+	</ul>
+	<h1>Phạm thị Quỳnh anh</h1>
+	<h2>Phạm Thị Quỳnh Anh</h2>
+	<div><video id="video1" width="320" height="176" controls="controls">
+  <source src="abc.mp4" type="video/mp4">
+  <source src="abc.ogg" type="video/ogg">
+</video>
+</div>
+<div>
+	<img src="1.jpeg" alt="pic1" width="400" height="600">
+</div>
+<div>
+	<h1>album</h1>
+	<div class="img1">
+		<a href="1.jpg" title=""><img src="1.jpg" alt=""></a>
+	</div>
+	<div class="img1">
+		<a href="2.jpg" title=""><img src="2.jpg" alt=""></a>
+	</div>
+	<div class="img1">
+		<a href="3.jpg" title=""><img src="3.jpg" alt=""></a>
+	</div>
+	<div class="img1">
+		<a href="4.jpg" title=""><img src="4.jpg" alt=""></a>
+	</div>
+</div>
+<div>
+	<label for="Nhap">Nhap ten:</label><br>
+	<input type="text" name="Ten">
+	<input type="submit" name="sub">
+</div>
+<div><textarea name="text2" rows=" 5"></textarea>
+<input type="submit" name="sub2"></div>
+<div>
+	<select name="sel1" multiple>
+		<option value="cs1">
+			Mỹ Tâm
+		</option>
+		<option value="cs2">
+			Hương tràm
+		</option>
+		<option value="cs3">
+			Chipu
+		</option>
+	</select>
+	<br><br>
+	<input type="submit" name="sub">
+</div>
+<div>
+	<input type="checkbox" name="check1" id="check1"><label for="check1">Xe</label>
+	<input type="checkbox" name="check2" id="check2"><label for="check2">Nhà</label>
+	<input type="submit" name="sub">
+</div>
+<div>
+<h1>Chọn file</h1>
+<input type="file" name="File" id="File1">
+<input type="submit" name="sub">
+</div>
+<div>
+	<input type="radio" name="radio1" id="radio1"><label for="radio1">Giáo viên</label>
+	<input type="radio" name="radio2" id="radio2"><label for="radio2">Giảng viên</label>
+	<input type="submit" name="sub">
+</div>
+<div>
+	<input type="reset" name="res">
+</div>
+<div>
+	<input type="image" name="" src="4.jpg" width="32" height="17">
+</div>
+<div>
+	<label for="">Pass</label>
+	<input type="password" name="">
+</div>
+<div>
+	<input type="hidden" name="">
+</div>
+<div class="li1">
+	<ul>
+		<li>Cơm</li>
+		<li>Cháo</li>
+		<li>Bún</li>
+	</ul>
+</div>
+<div class="li2">
+	<ol>
+		<li>Phở</li>
+		<li>Bún bò huế</li>
+		<li>Cháo chim</li>
+	</ol>
+</div>
+<table>
+	<tr>
+		<th>Họ tên</th>
+		<th>Địa Chỉ</th>
+		<th>Sđt</th>
+	</tr>
+	<tr>
+		<td>Phạm Thị Quỳnh Anh</td>
+		<td>Kim Mã</td>
+		<td>037535333<td>
+	</tr>
+	<tr>
+		<td>Phạm Thị Phương Thảo</td>
+		<td>Kim Mã</td>
+		<td>037535333<td>
+	</tr>
+</table>
 </body>
 </html>
